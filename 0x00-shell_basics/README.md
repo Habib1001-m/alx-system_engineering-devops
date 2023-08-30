@@ -21,8 +21,8 @@ describing what each script is doing
 mkdir -p welcome/to/school'
 18 -Write a command that lists all the files and directories of the current directory, separated by commas (,). use '#!/bin/bash
 ls -xamp'
-19 -Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0. use '0 string HOLBERTON Holberton data
-!:mime Holberton'
+19 -Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0. use '0 string SCHOOL School data
+! :mime School'
 
 
 
