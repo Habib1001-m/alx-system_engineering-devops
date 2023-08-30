@@ -10,7 +10,7 @@ describing what each script is doing
 8 -create a script To delete the file "betty" from "/tmp/my_first_directory" use 'rm /tmp/my_first_directory/betty'
 9 -create a script To delete the directory "my_first_directory" from the "/tmp" directory use 'rmdir /tmp/my_first_directory'
 10 -create a script To change the working directory to the previous one use 'cd -'
-11 -create a script To list all files in the current directory, the parent of the working directory, and the "/boot" directory in long format use 'ls -l . .. /boot'
+11 -create a script To list all files in the current directory, the parent of the working directory, and the "/boot" directory in long format use 'ls -la . .. /boot'
 12 -create a script To print the type of the file named "iamafile" in the "/tmp" directory use 'file /tmp/iamafile'
 13 -create a script To create a symbolic link to "/bin/ls" named "ls" in the current working directory use 'ln -s /bin/ls __ls__'
 14 -create a script To copy all HTML files from the current working directory to the parent of the working directory, but only copy files that do not exist in the parent directory or are newer than the versions in the parent directory use 'cp -u *.html ..' 
