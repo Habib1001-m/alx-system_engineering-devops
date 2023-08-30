@@ -13,4 +13,16 @@ describing what each script is doing
 11 -create a script To list all files in the current directory, the parent of the working directory, and the "/boot" directory in long format use 'ls -la . .. /boot'
 12 -create a script To print the type of the file named "iamafile" in the "/tmp" directory use 'file /tmp/iamafile'
 13 -create a script To create a symbolic link to "/bin/ls" named "ls" in the current working directory use 'ln -s /bin/ls __ls__'
-14 -create a script To copy all HTML files from the current working directory to the parent of the working directory, but only copy files that do not exist in the parent directory or are newer than the versions in the parent directory use 'cp -u *.html ..' 
+14 -create a script To copy all HTML files from the current working directory to the parent of the working directory, but only
+ copy files that do not exist in the parent directory or are newer than the versions in the parent directory use 'cp -u *.html ..' 
+15 -Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u. use 'mv [[:upper:]]* /tmp/u'
+16 -Create a script that deletes all files in the current working directory that end with the character ~. use 'rm *~'
+17 -Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory. use '#!/bin/bash
+mkdir -p welcome/to/school'
+18 -Write a command that lists all the files and directories of the current directory, separated by commas (,). use '#!/bin/bash
+ls -xamp'
+19 -Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0. use '0 string HOLBERTON Holberton data
+!:mime Holberton'
+
+
+
