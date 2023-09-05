@@ -52,7 +52,7 @@ Feel free to explore each script to learn more about shell redirections and thei
 
 ```bash
 chmod +x 0-hello_world
-
+```
 ## Contributing
 
 Contributions to this project are welcome! If you have any improvements, suggestions, or additional scripts related to shell permissions, feel free to submit a pull request.
