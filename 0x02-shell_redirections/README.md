@@ -37,3 +37,18 @@ Feel free to explore each script to learn more about shell redirections and thei
 - `8-cwd_state`: Writes the result of the `ls -la` command into the file `ls_cwd_content`.
 - `9-duplicate_last_line`: Duplicates the last line of the `iacta` file.
 - `10-no_more_js`: Deletes all regular files with a `.js` extension in the current directory and its subdirectories.
+- `11-directories`: Counts the number of directories and subdirectories in the current directory.
+- `12-newest_files`: Displays the 10 newest files in the current directory.
+- `13-unique`: Prints only words that appear exactly once from a list of words.
+- `14-hidethisword`: Displays lines containing the pattern "root" from a file.
+- `19-AZ`: Displays lines starting with either "A" or "Z" from the `/etc/ssh/sshd_config` file.
+- `20-hiago`: Removes all occurrences of the letter "c" (both uppercase and lowercase) from the input.
+- `21-reverse`: Reverses the input.
+- `22-users_and_homes`: Displays all users and their home directories, sorted by users.
+- `24-empty_casks`: Lists the names of empty files and directories in the current directory and its subdirectories.
+- `25-acrostic`: Decodes an acrostic by extracting the first character of each line.
+- `26-the_biggest_fan`: Parses web server logs in TSV format and displays the 11 hosts or IP addresses that made the most requests.
+  # To make the files executable, you can use the `chmod` command. For example, to make `0-hello_world` executable, you can run the following command:
+
+```bash
+chmod +x 0-hello_world
