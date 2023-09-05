@@ -61,4 +61,11 @@ To list all the files and directories of the current directory, separated by com
 
 ## Script 19: Create Magic File
 To create a magic file "school.mgc" that can be used with the command `file` to detect School data files, use the command `0 string SCHOOL School data !:mime School`.
-End
+
+## Contributing
+Contributions to this repository are welcome! Feel free to submit a pull request if you have any improvements, suggestions, or additional resources related to Shell scripting.
+
+## License
+This project is a part of the ALX System Engineering DevOps curriculum.
+
+## End of file

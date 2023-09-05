@@ -38,13 +38,14 @@ In the Shell Redirections section, you will explore how to redirect input and ou
 
 ## Shell Variables Expansions
 
-The Shell Variables Expansions section focuses on understanding and utilizing variables in Shell scripting. You will learn how to declare variables, assign values, and perform expansions to manipulate data effectively.
+The Shell Variables Expansions section focuses on understanding and utilizing variables in Shell scripting. You will learn to declare variables, assign values, and perform expansions to manipulate data effectively.
 
 ## Contributing
 
-Contributions to this repository are welcome! If you have any improvements, suggestions, or additional resources related to Shell scripting, feel free to submit a pull request.
+Contributions to this repository are welcome! Feel free to submit a pull request if you have any improvements, suggestions, or additional resources related to Shell scripting.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is a part of the ALX System Engineering DevOps curriculum.
+
 ## End of file
